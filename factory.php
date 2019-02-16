@@ -2,18 +2,18 @@
 
 class Automobile {
 
-    private $bike_make;
-    private $bike_model;
+    private $car_make;
+    private $car_model;
 
     public function __construct($make, $model)
     {
-        $this->bike_make = $make;
-        $this->bike_model = $model;
+        $this->car_make = $make;
+        $this->car_model = $model;
     }
 
     public function getMakeAndModel()
     {
-        return array($this->bike_make, $this->bike_model);
+        return array($this->car_make, $this->car_model);
 
     }
 }
