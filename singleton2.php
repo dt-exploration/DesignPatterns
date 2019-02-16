@@ -24,7 +24,7 @@ class Singleton
 //Fatal error: Uncaught Error: Call to private Singleton::__construct() from
 //invalid context
 
-$objekat= Singleton::getInstance();
+$objekat = Singleton::getInstance();
 var_dump($objekat);
 
  ?>

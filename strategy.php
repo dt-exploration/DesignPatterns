@@ -15,20 +15,20 @@ class BmwCouponGenerator implements CarCouponGenerator
 
     public function addSeasonDiscount()
     {
-        if($this->isHighSeason) {
+        if ($this->isHighSeason) {
             return $this->discount += 5;
         }
 
-        return $this->discount +=0;
+        return $this->discount += 0;
     }
 
     public function addStockDiscount ()
     {
-        if($this->bigStock) {
-            return $this->discount +=7;
+        if ($this->bigStock) {
+            return $this->discount += 7;
         }
 
-        return $this->discount +=0;
+        return $this->discount += 0;
     }
 
 }
@@ -51,7 +51,7 @@ class MercedesCouponGenerator implements CarCouponGenerator
 
     public function addStockDiscount()
     {
-        if($this->bigStock) {
+        if ($this->bigStock) {
             return $this->discount +=10;
         }
 
