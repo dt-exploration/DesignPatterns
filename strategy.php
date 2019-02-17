@@ -1,5 +1,6 @@
 <?php
 
+//interface
 interface CarCouponGenerator
 {
     function addSeasonDiscount();
