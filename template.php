@@ -26,6 +26,12 @@ class PaperBack extends Book
     {
         echo "The book $this->title was printed !";
     }
+
+    public function read()
+    {
+        $manual = "Open book with your hands, with tip of your fingers change pages, read";
+        return $manual;
+    }
 }
 
 
@@ -34,6 +40,12 @@ class Ebook extends Book
     public function generatePDF()
     {
         echo "A pdf was generated for the eBook $this->title";
+    }
+
+    public function read()
+    {
+      $manual = "Look at the monitor, use mouse to scroll through pages, read";
+      return $manual;
     }
 }
 
