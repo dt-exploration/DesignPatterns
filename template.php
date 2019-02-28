@@ -15,6 +15,8 @@ abstract class Book
         $this->content = $str;
     }
 
+    public abstract function read();
+
 }
 
 
