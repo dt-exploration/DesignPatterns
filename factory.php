@@ -14,8 +14,8 @@ class Automobile {
     public function getMakeAndModel()
     {
         return array($this->car_make, $this->car_model);
-
     }
+    
 }
 
 class AutomobileFactory
