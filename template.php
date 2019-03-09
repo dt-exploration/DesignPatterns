@@ -6,6 +6,7 @@ abstract class Book
     protected $content;
 
     public function setTitle($str)
+    
     {
         $this->title = $str;
     }
