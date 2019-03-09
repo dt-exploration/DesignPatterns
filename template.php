@@ -16,7 +16,6 @@ abstract class Book
     }
 
     public abstract function read():void;
-
 }
 
 
