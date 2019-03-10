@@ -10,7 +10,6 @@ class Automobile {
         $this->car_make = $make;
         $this->car_model = $model;
     }
-    
 
     public function getMakeAndModel()
     {
