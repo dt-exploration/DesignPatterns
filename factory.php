@@ -10,12 +10,13 @@ class Automobile {
         $this->car_make = $make;
         $this->car_model = $model;
     }
+    
 
     public function getMakeAndModel()
     {
         return array($this->car_make, $this->car_model);
     }
-    
+
 }
 
 class AutomobileFactory
