@@ -15,7 +15,6 @@ class Automobile {
     {
         return array($this->car_make, $this->car_model);
 
-
     }
 }
 
