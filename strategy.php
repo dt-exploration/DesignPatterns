@@ -52,10 +52,10 @@ class MercedesCouponGenerator implements CarCouponGenerator
     public function addStockDiscount()
     {
         if ($this->bigStock) {
-            return $this->discount +=10;
+            return $this->discount += 10;
         }
 
-        return $this->discount +=0;
+        return $this->discount += 0;
     }
 
 }
